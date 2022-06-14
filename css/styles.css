@@ -89,7 +89,9 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contact-icon {
+.mail-icon,
+.tel-icon {
+  display: block;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -115,7 +117,7 @@ img {
   height: 600px;
   max-width: 1600px;
   background-color: #2f303a;
-  margin: 0;
+  margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -185,6 +187,7 @@ img {
   justify-content: center;
   margin-bottom: 30px;
   height: 120px;
+  border-radius: 4px;
   background-color: #f5f4fa;
 }
 .item-title {
@@ -369,7 +372,7 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-item :not(last-child) {
+.footer-item:not(last-child) {
   margin-bottom: 9px;
 }
 .footer-location {
@@ -423,7 +426,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  color: #afb1b8;
+  color: #ffffff;
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
